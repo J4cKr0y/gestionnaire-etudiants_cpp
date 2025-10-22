@@ -11,7 +11,7 @@ add_executable(
     Gest_app
     main.cpp
     src/demonstration_pointeur.cpp
-
+    src/etudiant.cpp
 )
 
 # Configuration de base pour C++11 (pour std::cout, etc.)
