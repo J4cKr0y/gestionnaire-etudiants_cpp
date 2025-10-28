@@ -12,7 +12,8 @@ add_executable(
     main.cpp
     src/demonstration_pointeur.cpp
     src/etudiant.cpp
+    src/gestion_etudiants.cpp
+    src/utils_io.cpp
 )
-
 # Configuration de base pour C++11 (pour std::cout, etc.)
 target_compile_features(Gest_app PRIVATE cxx_std_11)
